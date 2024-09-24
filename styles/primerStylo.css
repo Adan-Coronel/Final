@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 1%;
+    text-align: center;
+    background-color: aqua;
+   padding-inline-start: initial;
+   border-radius: 10%;
+   border-width: 2px;
+   border-color: rgb(17, 241, 241);
+   border-style: solid;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
