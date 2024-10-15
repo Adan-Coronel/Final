@@ -66,6 +66,16 @@ li{
     height: 100px;
 }
 
+.fotos img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+}
 .textos{
     text-align: center;
+    padding-left: 20px;
+}
+.contenido{
+    display: flex;
 }
