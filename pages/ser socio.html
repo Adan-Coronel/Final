@@ -16,24 +16,39 @@
                 <li><a href="../index.html">Deportivo Esperanza</a></li>
                 <li><a href="futsal.html">Futsal</a></li>
                 <li><a href="voley.htm">Voley</a></li>
-
             </ul>
         </nav>
     </div>
-    
+
     <div class="fondo">
         <div class="divSocio">
             <nav class="socio">
-                <form action="">
+                <form id="fmr">
                     <br>
                     <label for="nombres">Nombres</label> <br>
-                    <input type="text" name="nombres" id="nombres"><br>
+                    <input type="text" name="nombres" id="nombres" class="casillas"><br>
                     <label for="apellidos"> Apellidos</label><br>
-                    <input type="text" name="apellidos" id="nombres"><br>
+                    <input type="text" name="apellidos" id="apellidos" class="casillas"><br>
+                    <label for="Telefono">Nº de Telefono</label><br>
+                    <input type="numb" name="Telefono" id="tel" class="casillas"><br>
                     <br>
-                    <input type="submit" value="Registrarse">
+                    <select id="deporte">
+                        <option></option>
+                        <option>Futsal</option>
+                        <option>Futsal Senior</option>
+                        <option>Futsal Femenino</option>
+                        <option>Voley</option>
+                    </select>
                     <br>
-                     <br>
+                    <br>
+                    <input type="button" value="Registrarse" id="enviar">
+                    <br>
+
+                    <ul id="ul-error">
+
+                    </ul>
+                    <br>
+                    <script src="../script/form.js"></script>
                 </form>
             </nav>
         </div>
