@@ -4,8 +4,9 @@ body{
 .menu {
     background-image: url(../assets/edits/Voley.png);
     background-size: cover;
-    width: 100%;
-    height: 90px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 17vh;
     display: flex;
     align-items: center;
 }

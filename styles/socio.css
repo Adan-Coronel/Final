@@ -8,22 +8,30 @@
     align-items: center;
     text-align: center;
     padding: 5px;
-}
 
+}
+h2{
+    color: azure;
+}
+label{
+    color: azure;
+}
 .divSocio {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.casillas {
+input {
+    background: rgba(255, 255, 255, 0.3);
     width: 75%;
-    border-radius: 15px;
+    border-radius: 20px;
 }
-
-.fondo {
+body{
     background-image: url(../assets/pictures/Futsal/7.png);
     background-size: cover;
+}
+.fondo {
     height: 100vh;
     width: 100vw;
     display: flex;
