@@ -1,85 +1,4 @@
-body {
-    margin: 0;
-    height: 90%;
-    width: 100%;
-}
 
-.menu {
-    background-image: url(../assets/edits/Menu.png);
-    background-size: cover;
-    width: 100%;
-    height: 17vh;
-    display: flex;
-    align-items: center;
-}
-
-.menu li a :hover {
-    display: flex;
-    border: 2px solid cadetblue;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-ul {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    align-items: center;
-    table-layout: fixed;
-}
-
-a {
-    padding: 0 15px;
-    color: aliceblue;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.menu-nav {
-    width: 100%;
-    height: 100%;
-
-}
-
-li {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-p{
-    font-family:'Courier New', Courier, monospace;
-    padding: 20px;
-    text-align: center;
-}
-
-.pie p {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.pie {
-    background-image: url(../assets/edits/Menu\ Bajo.png);
-    position: fixed;
-    background-size: cover;
-    background-position: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100px;
-}
 
 .fotos img {
     width: 300px;
@@ -92,7 +11,7 @@ p{
     display: flex;
 
     text-align: center;
-    padding-left: 20px;
+    padding: 50px;
 }
 
 .contenido {
