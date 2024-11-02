@@ -16,17 +16,6 @@ border: 2px solid cadetblue;
 }
 
 
-
-ul {
-    display: flex;
-    justify-content: start;
-    
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    align-items: center;
-}
-
 a{
     padding: 0 15px;
     color: black;
@@ -40,6 +29,13 @@ a{
     height: 100%;
 
 }
+
+
+h2 {
+    text-align: center;
+}
+
+
 li{
     display: flex;
     align-items: center;
