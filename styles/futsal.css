@@ -1,77 +1,65 @@
-body{ 
-    margin: 0;
-}
-.menu {
-    background-image: url(../assets/edits/Futsal.png);
-    background-size: cover;
-    width: 100vw;
-    height: 17vh;
-    display: flex;
-    align-items: center;
-}
-.menu li a :hover{
-display: flex;
-border: 2px solid cadetblue;
+.gallery {
+    padding: 50px 0;
 }
 
-
-
-ul {
-    display: flex;
-    justify-content: start;
-    
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    align-items: center;
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-a{
-    padding: 0 15px;
-    color: aliceblue;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-.menu-nav{
-    width: 100%;
-    height: 100%;
-
-}
-li{
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.contenedor-galeria{
-    display: flex;
-}
-
-#contenedor-img{
-  
-    width: 50%;
-    height: 400px;
-    object-fit: contain;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.img-futsal{
-    width: 100%;
-}
-.btn{
-border: 2px solid black;
-border-radius: 5px;
-width: 10%;
-height: 10%;
-display: flex;
-justify-content: center;
-}
-
-.contenedor-galeria{
+.gallery-container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contenedor-galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor-img {
+    width: 60%;
+    height: 400px;
+    margin: 0 20px;
+}
+
+#contenedor-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #1a5f7a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #154c61;
+}
+h2{
+    text-align: center;
+}
+li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        flex-direction: column;
+    }
+
+    #contenedor-img {
+        width: 100%;
+        margin: 20px 0;
+    }
 }

@@ -1,58 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/primerStylo.css">
+    <title>Hacerse Socio - Deportivo Esperanza</title>
+    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/socio.css">
-    <title>Queres ser socio?</title>
 </head>
 
 <body>
-    <div class="menu">
+    <header>
         <nav class="menu-nav">
+            <div class="logo">
+                <img src="../assets/png escudo.png" alt="Escudo Deportivo Esperanza">
+            </div>
             <ul>
-                <li><a href="../index.html">Deportivo Esperanza</a></li>
+                <li><a href="../index.html">Inicio</a></li>
                 <li><a href="futsal.html">Futsal</a></li>
                 <li><a href="voley.htm">Voley</a></li>
+                <li><a href="ser socio.html">Hacerse Socio</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <div class="fondo">
-        <div class="divSocio">
-            <nav class="socio">
-                <form id="fmr">
-                    <h2>Ingrese sus datos</h2>
-                    <label for="nombres">Nombres</label> <br>
-                    <input type="text" name="nombres" id="nombres" ><br>
-                    <label for="apellidos"> Apellidos</label><br>
-                    <input type="text" name="apellidos" id="apellidos" ><br>
-                    <label for="Telefono">Nº de Telefono</label><br>
-                    <input type="numb" name="Telefono" id="tel" ><br>
-                    <br>
-                    <select id="deporte">
-                        <option></option>
-                        <option>Futsal</option>
-                        <option>Futsal Senior</option>
-                        <option>Futsal Femenino</option>
-                        <option>Voley</option>
+    <main>
+        <section class="hero socio-hero">
+            <h1>Hacerse Socio de Deportivo Esperanza</h1>
+        </section>
+
+        <section class="formulario-socio">
+            <h2>Formulario de Inscripción</h2>
+            <form id="fmr">
+                <div class="form-group">
+                    <label for="nombres">Nombres</label>
+                    <input type="text" id="nombres" name="nombres" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Nº de Teléfono</label>
+                    <input type="tel" id="tel" name="Telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="deporte">Deporte de Interés</label>
+                    <select id="deporte" name="deporte" required>
+                        <option value="">Seleccione un deporte</option>
+                        <option value="Futsal">Futsal</option>
+                        <option value="Futsal Senior">Futsal Senior</option>
+                        <option value="Futsal Femenino">Futsal Femenino</option>
+                        <option value="Voley">Voley</option>
                     </select>
-                    <br>
-                    <br>
-                    <input type="button" value="Registrarse" id="enviar">
-                    <br>
-                    <BR>
-                    <BR>
-                    <ul id="ul-error">
-                    </ul>
-                    <br>
-                    <script src="../script/form.js"></script>
-                </form>
-            </nav>
-        </div>
-    </div>
+                </div>
+                <button type="button" id="enviar" class="boton">Registrarse</button>
+            </form>
+            <ul id="ul-error" class="error-list"></ul>
+        </section>
+    </main>
+    <script src="../script/form.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Deportivo Esperanza. Todos los derechos reservados.</p>
+    </footer>
+
+
 </body>
 
 </html>
